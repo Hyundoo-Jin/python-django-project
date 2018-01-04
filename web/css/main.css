@@ -1,0 +1,32 @@
+div.Main {
+    text-align: center;
+    font-size: 100px;
+    padding: 50px;
+    font-family: "나눔스퀘어";
+    border-bottom: 3px solid cadetblue;
+}
+div.Main #thumb {
+    height: 100px;
+    width:  100px;
+    position: relative;
+    top: 15px;
+}
+div.search {
+    text-align: center;
+    padding: 20px;
+}
+#serachbar {
+    width: 450px;
+    height: 30px;
+    font-size: 20px;
+    font-family: "함초롬바탕";
+}
+div.admin {
+    text-align: right;
+    font-size: 25px;
+    font-style: italic;
+    padding-right: 250px;
+}
+#teamlab {
+    margin-left: auto;
+}
