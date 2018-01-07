@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang = 'en'>
+    <meta charset="UTF-8">
+    <title>Logic Example</title>
+    <style type="text/css">
+        table, td, tr {
+            border : 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<script language="JavaScript">
+    document.write("<TABLE class = 'table'>")
+
+    for (var i = 0; i < 10 ; i ++){
+        document.write('<TR>');
+        for (var j = 0; j < 10; j ++){
+            document.write('<TD>');
+            document.write(i+j);
+            document.write('</TD>');
+        }
+        document.write('</TR>');
+    }
+    document.write('</TABLE>')
+</script>
+</body>
+</html>
