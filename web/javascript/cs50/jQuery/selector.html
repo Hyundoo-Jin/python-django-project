@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        #hd {
+            display : inline;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('#hd').mouseover(function(){
+                $('#hd').html('<br>현두짱짱맨!!</br>')
+            });
+            $('#hd').mouseout(function(){
+                $('#hd').html('<br>뜻밖의진현두</br>')
+            });
+        });
+    </script>
+</head>
+<body>
+<h2 class = 'test'>
+    This is a heading
+</h2>
+<p class = 'test'>
+    This is a paragraph
+</p>
+<p id = 'hd'>
+    This is another paragraph.
+</p>
+<button>Click me</button>
+</body>
+</html>
