@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cs50_bookmark.iml" filepath="$PROJECT_DIR$/.idea/cs50_bookmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HJproject.iml" filepath="$PROJECT_DIR$/.idea/HJproject.iml" />
     </modules>
   </component>
 </project>
